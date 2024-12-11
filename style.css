@@ -36,7 +36,7 @@ h2 {
     margin: auto;
     padding: 0.5em;
     width: 100em;
-    height: 50em;
+    height: 60em;
     background-color: rgba(0, 0, 0, 0.404);
     border-radius: 0.4 em;
     color: #7d3c98;
@@ -61,6 +61,7 @@ h2 {
     color: #7d3c98;
     padding-bottom: 1.5em;
     box-shadow: 1px 1px 15px 15px;
+    
 }
 #e-mail {
     font-size: 1.5em;
@@ -79,24 +80,27 @@ h2 {
 #btn {
     height: 80px;
     width: 200px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    color: black;
-    background-color: #7d3c98;
+    color: white;
+    background-color:#8b44aa ;
     border: none;
     cursor: pointer;
-    box-shadow: black 5px 5px 0 0 ;
-    transition: 0.5s;
-    
+    box-shadow: 0px 12px 0px 0px rgb(153, 1, 153);
+    transition: 0.3s;
+    border-radius: 25px;
+    font-family: sans-serif;
 
 }
 #btn:hover {
-    background-color:#ae70c9 ;
-    color: white;
+    transform: translateY(6px);
+    box-shadow: 0px 6px 0px 0px purple;
+    background-color: #7d3c98;
     
 
 
 }
+
 .buttondiv {
     display: flex;
     align-items: center;
